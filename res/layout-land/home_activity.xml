@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+    <ImageView
+            android:src="@drawable/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            />
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" android:layout_centerVertical="true">
+
+        <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/high_scores"
+                android:id="@+id/button4"
+                android:layout_gravity="center_vertical"
+                style="@style/MenuButtonCenter"
+                android:layout_weight="1"
+                android:onClick="onHighScoresClicked"
+                />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play"
+                    android:id="@+id/button"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onPlayClicked"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/free_play"
+                    android:id="@+id/button2"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onFreePlayClicked"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vs_ai"
+                    android:id="@+id/button3"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onChallengePlayClicked"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

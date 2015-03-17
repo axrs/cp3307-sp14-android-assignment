@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+    <ImageView
+            android:src="@drawable/background_portrait"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:orientation="vertical"
+            android:layout_margin="10dip"
+            >
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@drawable/board"
+                      android:layout_margin="5dip"
+                >
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caption_ai_guess"
+                    style="@style/CaptionText"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/guess"
+                    android:inputType="number"
+                    android:gravity="center"
+                    style="@style/CaptionText"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_option_correct"
+                    android:id="@+id/actionCorrect"
+                    style="@style/MenuButtonCenter"
+                    android:layout_weight="1"
+                    android:onClick="onIncorrectClick"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_option_incorrect"
+                    android:id="@+id/actionIncorrect"
+                    style="@style/MenuButtonCenter"
+                    android:layout_weight="1"
+                    android:onClick="onCorrectClick"
+                    />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

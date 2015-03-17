@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MenuButtonRight">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+    <style name="MenuButtonCenter">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">20sp</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+    <style name="MenuButtonLeft">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">20sp</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+
+    <style name="CaptionText">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:padding">5sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+
+
+    <style name="Text">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:padding">5sp</item>
+        <item name="android:layout_marginLeft">7sp</item>
+        <item name="android:layout_marginRight">7sp</item>
+    </style>
+
+    <style name="TextRight">
+        <item name="android:textColor">@color/menu_button</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowColor">@color/alphaBlack</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:padding">5sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">7sp</item>
+        <item name="android:layout_marginRight">7sp</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dip"
+        >
+    <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="100"
+            android:id="@+id/rank"
+            style="@style/TextRight"
+            android:layout_weight="1"
+            />
+    <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="Undefined"
+            android:id="@+id/name"
+            style="@style/Text"
+            android:layout_weight="3"
+            />
+    <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="00000000"
+            android:id="@+id/score"
+            style="@style/TextRight"
+            android:layout_weight="2"
+            />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+    <ImageView
+            android:src="@drawable/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            />
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_centerVertical="true">
+
+        <fragment android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  class="au.edu.jcu.mobile_technology.scott.alexander.assignment.CustomDifficultyFragment"
+                  android:layout_gravity="center_vertical"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_difficulty_easy"
+                    android:id="@+id/button"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onEasySelectionClick"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_difficulty_medium"
+                    android:id="@+id/button2"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onMediumSelectionClick"
+                    />
+            <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.PaintedTextButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_difficulty_hard"
+                    android:id="@+id/button3"
+                    style="@style/MenuButtonRight"
+                    android:onClick="onHardSelectionClick"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

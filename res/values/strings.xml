@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ai_name">K.I.T.T.</string>
+
+    <string name="app_name">Guess The Number</string>
+    <string name="free_play">Free Play \t →</string>
+    <string name="play">Play \t →</string>
+    <string name="vs_ai">Versus A.I. \t →</string>
+    <string name="high_scores">High Scores</string>
+
+
+    <string name="action_sequence_binary">Binary \t →</string>
+    <string name="action_sequence_fibonacci">Fibonacci \t →</string>
+    <string name="action_sequence_prime">Prime \t →</string>
+
+
+    <string name="action_difficulty_easy">Easy \t →</string>
+    <string name="action_difficulty_medium">Medium \t →</string>
+    <string name="action_difficulty_hard">Hard \t →</string>
+
+    <string name="caption_custom_difficulty">Set a custom value range:</string>
+    <string name="action_difficulty_custom">Custom \t →</string>
+
+    <string name="caption_guess">What was my secret number?</string>
+    <string name="action_guess">Submit Guess \t →</string>
+
+    <string name="caption_ai_guess">I bet your secret number is:</string>
+
+    <string name="action_option_incorrect">✔</string>
+    <string name="action_option_correct">X</string>
+    <string name="action_option_replay">↺</string>
+
+    <string name="caption_min">Min:</string>
+    <string name="caption_max">Max:</string>
+
+
+    <string name="caption_user_win">You won with a score of</string>
+    <string name="caption_ai_win">I won with a score of</string>
+    <string name="caption_user_lost">My secret value was too illusive for you. Better luck next time!</string>
+
+    <string name="caption_user_enter_name">Enter your name to be recorded in the high scores:</string>
+
+    <string name="action_save">✔</string>
+    <string name="action_cancel">X</string>
+
+</resources>

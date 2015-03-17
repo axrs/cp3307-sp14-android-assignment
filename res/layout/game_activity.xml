@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+
+    <au.edu.jcu.mobile_technology.scott.alexander.assignment.view.GameView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/animationSurface"
+            android:layout_centerInParent="true"
+            />
+
+    <!--IconButton
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            style="@style/ShadowText"
+            android:text="{fa-home}"
+            android:textSize="12sp"
+            android:background="@drawable/circular_button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12sp"
+            /-->
+
+</RelativeLayout>
